@@ -1,0 +1,14 @@
+variables:
+  - name: crate_name
+    ask: Crate name
+    default_value: "{{ file_name ffizer_dst_folder }}"
+  - name: title
+    ask: Project title
+    default_value: "{{crate_name}}"
+  - name: description
+    ask: Crate description
+    default_value: ""
+
+ignores:
+  - gitignore
+  - .git

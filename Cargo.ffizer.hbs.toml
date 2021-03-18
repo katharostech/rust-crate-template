@@ -1,0 +1,8 @@
+[package]
+name = "{{crate_name}}"
+version = "0.0.0"
+authors = ["Katharos Technology LLC."]
+edition = "2018"
+description = "{{description}}"
+
+[dependencies]

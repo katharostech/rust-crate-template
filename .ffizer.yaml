@@ -12,3 +12,4 @@ variables:
 ignores:
   - gitignore
   - .git
+  - README.md

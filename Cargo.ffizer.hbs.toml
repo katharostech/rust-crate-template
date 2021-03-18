@@ -5,4 +5,12 @@ authors = ["Katharos Technology LLC."]
 edition = "2018"
 description = "{{description}}"
 
+documentation = "https://docs.rs/{{crate_name}}"
+repository = "https://github.com/katharostech/{{crate_name}}"
+readme = "README.md"
+license-file = "LICENSE.md"
+
+keywords = []
+categories = [] # See: https://crates.io/category_slugs
+
 [dependencies]
